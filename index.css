@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: fit-content;
+    background-color: #F8F5FF;
+    color: #10140E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+h1{
+    text-align: center;
+}
+
+div.fBoxScores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div.desc{
+    text-align: center;
+    margin: 1em 0em 2em 0em;
+}
+
+div#choices{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 2em 0 2em 0;
+}
+img{
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    border: 0px;
+    border-radius: 10%;
+    background-color: #b4d2ac;
+    padding: 1em;
+}
+
+button:active{
+    background-color: #72a465;
+}
+
+
+button#restart{
+    color: #10140E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 1em;
+    width: 10em;
+}
+
+div#endingbox{
+    margin: 1em 0 2em;
+}
+
+div#ending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+div#result{
+    text-align: center;
+    margin: 1em 0em;
+}
